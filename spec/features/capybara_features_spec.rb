@@ -14,4 +14,5 @@ feature 'Player Names' do
     click_link 'Attack'
     expect(page).to have_content 'Bob attacked Dave'
   end
+
 end
