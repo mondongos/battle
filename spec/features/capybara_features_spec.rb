@@ -18,7 +18,7 @@ feature 'Player Names' do
   scenario "attack reduces HP of player 2" do
     sign_in_and_play
     click_link 'Attack'
-    expect(page).to have_content 'Dave 90HP'
+    expect(page).to have_content 'Dave now has 90HP'
   end
 
 end
